@@ -78,11 +78,11 @@ article {
 }
 
 .hero article img {
-    width: 100px;
-    height: auto;
+    width: 95%;
+    max-width: 800px;
     float: right;
 }
 
-section image {
+section img{
     align-items: normal;
 }
