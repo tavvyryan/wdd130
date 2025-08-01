@@ -77,9 +77,14 @@ article {
 }
 
 .hero article img {
+    padding:0px;
     width: 100px;
     height: auto;
     float: right;
+}
+
+.hero article p{
+    padding: 0;
 }
 
 section img {
