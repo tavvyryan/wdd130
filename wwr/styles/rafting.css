@@ -39,7 +39,6 @@ body {
 header,
 main,
 footer {
-    text-align: center;
     width: 840px;
     margin: 0 auto;
     background-color: var(--accent2-color);
@@ -112,7 +111,8 @@ article {
 section img {
     align-items: normal;
 }
-footer{
+
+footer {
     text-align: center;
     padding-top: 16px;
     padding-bottom: 16px;
