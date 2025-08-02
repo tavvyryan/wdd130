@@ -7,6 +7,24 @@
     --body-font: "Nunito Sans", sans-serif;
 }
 
+body,
+.nunito-sans-body {
+    font-family: var(--body-font);
+    font-weight: 200;
+    font-style: normal;
+}
+
+.nunito-sans-body {
+    font-variation-settings:
+        "YTLC" 500;
+}
+
+.rubik-header {
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +32,7 @@
 }
 
 body {
-    font-family: var(--body-font);
+    background-color: var(--primary-color);
     color: var(--accent1-color);
 }
 
@@ -24,12 +42,14 @@ footer {
     width: 840px;
     margin: 0 auto;
     background-color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 
 h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    background-color: var(--accent2-color);
 }
 
 nav,
@@ -77,13 +97,13 @@ article {
 }
 
 .hero article img {
-    padding:0px;
+    padding: 0px;
     width: 100px;
     height: auto;
     float: right;
 }
 
-.hero article p{
+.hero article p {
     padding: 0;
 }
 
